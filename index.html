@@ -1,0 +1,66 @@
+cat index.html <<'E0F'
+<!doctype html>
+<html lang="en">
+    <head>
+        meta charset="utf-8 />
+        meta name"viewport" content="width=device-width, initial-scale=1" />
+        <title>Cristian Munoz - About Me</title>
+        <meta name="description" content="Software developer focused on clean UX, measureable outcomes, and maintainable code.">
+        <link rel="stylesheet" href="ctyls.css" />
+    </head>
+    <body>
+        <header class="container">
+            <nav class="nav">
+                <a class="brand" href="#">CM</a>
+                <ul class="links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="skills">Skills</a></li>
+                    <li><a href="contact" class="btn">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="container">
+            <section class="hero">
+                <hi> Hey, I'm Cristian! </hi>
+                <p class="lead">
+                    Software developer with a digital marketing background. I build performance, maintainable webapps and care a lot about UX, data, and clean architecture.
+                </p>
+                <div class="cta">
+                    <a class="btn" hred="#projects">See projects(soon)</a>
+                    <a class="btn btn-secondary" href="#contact">Get in touch</a>
+                </div>
+            </section>
+
+            <section id="about" class="section">
+                <h2>About me</h2>
+                <p>
+                    I recently graduated from ASU and lead marketing while building tools for automotive services businesses.
+                    Interest: Node/Typescript, React, modern CSS, and server-side tracking (CAPI/GA4).
+                </p>
+            </section>
+
+            <section> id="skills" class="section">
+                <h2>Skills</h2>
+                <ul>
+                    <li><strong>Languages:</strong> Javascript, Python, C/C++, SQL</li>
+                    <li><Strong>Frontend:</Strong> React, Next.js, HTML, CSS</li>
+                    <li><Strong>Backend:</Strong> Node.js, Express, REST, auth, testing</li>
+                    <li><Strong>Data/Dev0ps:</Strong> Postgres, Docker, Github Actions</li>
+                </ul>
+            </section>
+
+            <section id="contact" class="section">
+                <h2>Contact</h2>
+                <p>Email: <a href="mailto: Munozchris2@gmail.com"></a> Github: <ahref-"https://github.com/6G0D2" target="_blank" rel="noopener"> </a></p>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <small> © <span id="year"></span> Cristian Munoz</small>
+        </footer>
+
+        <script>document.getElementByID("year").textContent = new Date().getFullYear;</script>
+    </body>
+</html>
+    E0F
